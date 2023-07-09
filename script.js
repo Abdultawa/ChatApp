@@ -33,14 +33,14 @@ function myMessage() {
 myMessage();
 
 
-const apiKey = "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"
+const apiKey = "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"
 
 const submit = document.querySelector("#send")
 
 
 async function chatGpt() {
     console.log('clicked')
-    console.log(document.querySelector("#inputBox").value)
+    // console.log(document.querySelector("#inputBox").value)
     const options = {
         method: 'POST',
         headers: {
